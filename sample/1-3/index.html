@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>
+  </title>
+</head>
+
+<body>
+  <canvas id="visualizer"></canvas>
+  <div>
+    gain: <input type="range" id="gain" value="1" min="0" max="1" step="0.01">
+  </div>
+  <div>
+    sound output: <label><input type="checkbox" id="outputSwitch">enable</label><br>
+    filter: <label><input type="checkbox" id="filterSwitch" checked>enable</label><br>
+    filter freq: <input type="number" id="filterFreq" min="0" max="44100" value="1000">Hz
+  </div>
+  <script src="sample3.js" type="text/javascript">
+</script>
+</body>
+</html>
